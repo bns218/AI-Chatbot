@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import google.generativeai as genai
 
-api_key = input(str("Please use your google generative ai api key: "))
+api_key = "AIzaSyCtz7TIYulGvacSKBjqWbhcxd2ffPF0fgc"
 os.environ["GOOGLE_API_KEY"] = api_key
 
 
